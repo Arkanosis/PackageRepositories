@@ -1,9 +1,9 @@
 # Arkanosis' package repositories
 
 This git repository contains the necessary files to populate the following package repositories:
- * [pkg.arkanosis.net](https://pkg.arkanosis.net) Arch Linux package repository;
+ * [apk.arkanosis.net](https://apk.arkanosis.net) Android package repository;
  * [apt.arkanosis.net](https://apt.arkanosis.net) Debian & Kubuntu package repository;
- * [apk.arkanosis.net](https://apk.arkanosis.net) Android package repository.
+ * [pkg.arkanosis.net](https://pkg.arkanosis.net) Arch Linux package repository.
 
 Software authors and packagers are most of the time third parties but packages are all curated, reviewed and built by [myself](https://arkanosis.net) for my personal use.
 
@@ -27,7 +27,7 @@ sudo pacman -Sy
 
 ### On Debian and Kubuntu
 
-You can enable this repository your Debian 10 (Buster), your Ubuntu 16.04 LTS (Xenial) or your Ubuntu 18.04 (Bionic) as follow:
+You can enable this repository your Debian 10 (Buster), your Kubuntu 16.04 LTS (Xenial) or your Kubuntu 18.04 (Bionic) as follow:
 
 ```sh
 curl -s https://arkanosis.net/jroquet.pub.asc | sudo apt-key add -
@@ -37,11 +37,11 @@ sudo apt update
 
 ### On Android
 
-You can enable this repository on your Android (4.4+) with [F-Droid](https://f-droid.org/) as follow:
+You can enable this repository on your Android 4.4+ with [F-Droid](https://f-droid.org/) as follow:
  * Scan [this QR code](https://apk.arkanosis.net/fdroid/qr.png), or
  * Manually add the repository with the following information:
-  * Address: https://apk.arkanosis.net
-  * Fingerprint: 655955660F34A4DB7CC2B30D96B8B546759D6AEABC83D34AE682B73A7C24FE62
+   * Address: https://apk.arkanosis.net
+   * Fingerprint: 655955660F34A4DB7CC2B30D96B8B546759D6AEABC83D34AE682B73A7C24FE62
 
 ## Packages
 
@@ -51,6 +51,6 @@ The following packages are currently available:
 
 The following packages are currently being considered for addition:
  * **chars**: a command line tool to display information about unicode characters ([sources](https://github.com/antifuchs/chars), [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=chars))
- * **csvfix**
+ * **csvfix**: a command line tool to deal with CSV data ([sources](https://bitbucket.org/neilb/csvfix/src/default/), [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=csvfix))
  * **delta**: a syntax-highlighting pager for git ([sources](https://github.com/dandavison/delta))
- * **fdroidserver**: command line tools to manage a F-Droid repository
+ * **fdroidserver**: command line tools to manage a F-Droid repository ([sources](https://gitlab.com/fdroid/fdroidserver), [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=fdroidserver))
