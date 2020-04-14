@@ -54,3 +54,4 @@ The following packages are currently being considered for addition:
  * **csvfix**: a command line tool to deal with CSV data ([sources](https://bitbucket.org/neilb/csvfix/src/default/), [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=csvfix))
  * **delta**: a syntax-highlighting pager for git ([sources](https://github.com/dandavison/delta))
  * **fdroidserver**: command line tools to manage a F-Droid repository ([sources](https://gitlab.com/fdroid/fdroidserver), [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=fdroidserver))
+ * **urlencode**: a simple url-encoder / decoder ([sources](https://github.com/dead10ck/urlencode))
