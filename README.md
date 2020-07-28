@@ -53,5 +53,7 @@ The following packages are currently being considered for addition:
  * **chars**: a command line tool to display information about unicode characters ([sources](https://github.com/antifuchs/chars), [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=chars))
  * **csvfix**: a command line tool to deal with CSV data ([sources](https://bitbucket.org/neilb/csvfix/src/default/), [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=csvfix))
  * **delta**: a syntax-highlighting pager for git ([sources](https://github.com/dandavison/delta))
+ * **desed**: a debugger for sed ([sources](https://github.com/SoptikHa2/desed/))
  * **fdroidserver**: command line tools to manage a F-Droid repository ([sources](https://gitlab.com/fdroid/fdroidserver), [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=fdroidserver))
+ * **tmux-thumbs**: a tmux plugin for efficient, keyboard-only copy and paste in the terminal ([sources](https://github.com/fcsonline/tmux-thumbs))
  * **urlencode**: a simple url-encoder / decoder ([sources](https://github.com/dead10ck/urlencode))
