@@ -50,6 +50,7 @@ The following packages are currently available:
  * **wmrc**: an application to follow recent changes on Wikimedia projects in real time ([sources](https://github.com/arkanosis/wmrc))
 
 The following packages are currently being considered for addition:
+ * **batzconverter**: a command line tool to display the current or future time in different timezones ([sources](https://github.com/chmouel/batzconverter))
  * **chars**: a command line tool to display information about unicode characters ([sources](https://github.com/antifuchs/chars), [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=chars))
  * **csvfix**: a command line tool to deal with CSV data ([sources](https://bitbucket.org/neilb/csvfix/src/default/), [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=csvfix))
  * **delta**: a syntax-highlighting pager for git ([sources](https://github.com/dandavison/delta))
